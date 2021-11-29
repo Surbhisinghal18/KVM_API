@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="kvm">
+    <Basepaths>/kvm-admin/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1637659455736</CreatedAt>
+    <CreatedBy>surbhi.singhal@neosalpha.com</CreatedBy>
+    <Description>Administration API for KVM.</Description>
+    <DisplayName>kvm</DisplayName>
+    <LastModifiedAt>1637660545214</LastModifiedAt>
+    <LastModifiedBy>surbhi.singhal@neosalpha.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:2b1f002ab581f676cacc1a51f1342916bc2366263688910562e85fc9463a4201b531fb3d194e2a2a713e523b51581d4e5ec3c9c32b24fec2cac03d51404bb326:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-IAMPermissionCheck</Policy>
+        <Policy>AM-OriginalRequest</Policy>
+        <Policy>AM-SetResponse</Policy>
+        <Policy>EV-AvailablePermissions</Policy>
+        <Policy>EV-ParseRequestBody</Policy>
+        <Policy>EV-ParseRequestFormBody</Policy>
+        <Policy>EV-PathParameters</Policy>
+        <Policy>JS-IAMPermission</Policy>
+        <Policy>KV-DeleteEntryEnv</Policy>
+        <Policy>KV-DeleteEntryOrg</Policy>
+        <Policy>KV-GetEntryEnv</Policy>
+        <Policy>KV-GetEntryOrg</Policy>
+        <Policy>KV-PostEntryEnv</Policy>
+        <Policy>KV-PostEntryOrg</Policy>
+        <Policy>RF-400</Policy>
+        <Policy>RF-401</Policy>
+        <Policy>RF-403</Policy>
+        <Policy>RF-404</Policy>
+        <Policy>RF-404Entry</Policy>
+        <Policy>RF-500</Policy>
+        <Policy>SA-Incoming</Policy>
+        <Policy>kvm</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JS-IAMPermission.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

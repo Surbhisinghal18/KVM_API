@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-IAMPermissionCheck" version="SHA-512:a240f1e2a8376cae17c1a665c8349881d8372a14c668ef480d161ddfff4eee43c8c173ff146218ad8fe15cdee6c0f6e00393f5341d908e282b09408c6b024935"/>
+        <VersionInfo resourceName="AM-OriginalRequest" version="SHA-512:1e3eb9c5926ee7e9866d318d075e19a7e5c27b8cd544a82f0cc641f9dc46fcfeed69b38e23c46564dd46a0288591bfa9b19b048960533e458fd53cf8aa92eda2"/>
+        <VersionInfo resourceName="AM-SetResponse" version="SHA-512:10107ca2acaa33a95bf6507b0d8cab111960dd275fd6f5a1a78659fd9354d2d7c770600e8062f1ae22af5714b3ad76462fbc589cb65d3701fb1dfef6cf826f25"/>
+        <VersionInfo resourceName="EV-AvailablePermissions" version="SHA-512:7ed754e0a389935e07c2a23bccc111877386377f5e52ba15688016935ddd69f434d703a0e74583f1b5a2ce477198704b6576e0e333a37cab1ceda6de18e90625"/>
+        <VersionInfo resourceName="EV-ParseRequestBody" version="SHA-512:7dd14f573ee23a9a0aff3e210d65b633218b5bb081555806f823e6f15973399ea05b33eb44314451ce2022841a87addbed828d9fd3ed0c68d4bf45267685058d"/>
+        <VersionInfo resourceName="EV-ParseRequestFormBody" version="SHA-512:77757d49a7a0d7ea63800c0f65ce071f559351b7c8394054ffb20a008cfb5b181afd0b1a3bee6bfaacdc0b069ae57560f0111fb5c331d641cf158d375e34c64a"/>
+        <VersionInfo resourceName="EV-PathParameters" version="SHA-512:17da572a9e6b11a3f6343d22f561c1e58a74cef3aa0af1c6b0923fd59d2732094b2efdc0132d92b60bb3a4303726a24a08e82e956660c0fd70891a100cf67779"/>
+        <VersionInfo resourceName="JS-IAMPermission" version="SHA-512:12e0ae9d629daeae592aa9d91fb24547fe6e5462cfd4c49f13771dd87d67ce19ffc238b1eefcda15ea6436acd14961bf12c6a5d5d4159c81dc9bc8c25617b961"/>
+        <VersionInfo resourceName="KV-DeleteEntryEnv" version="SHA-512:7c5f646aeb766b4566efdb70fc1fb0b4e8b10079da31a339c8a2789e478fa33d2d9281bb6da2ea60d1c54cf4f2174a27b0d089889104f5e99810cefd0e7259d8"/>
+        <VersionInfo resourceName="KV-DeleteEntryOrg" version="SHA-512:7e2dfcc7a2cbdbb70d07b1c625da7086547ad6f7793e3769b41a2b7de895b89778adc9b067bdee5191ce9f561377898de1f91c5a632238315f72833ff30ada40"/>
+        <VersionInfo resourceName="KV-GetEntryEnv" version="SHA-512:3074bcb26f30b9368a7a7efb8e10c0ecfb8ba7dfa682d7d4c10a814147248dfba8d8f173f9be877719de34f458f4d4f4bb78e99ca5ec8a1f7f5add54780b28be"/>
+        <VersionInfo resourceName="KV-GetEntryOrg" version="SHA-512:8b8ceb19f53fc883299c8da401b72e1d4dd2fea2220d940a73113ac3c2bafc8b74bb63512a8cdb83165c5026a3e82861914d0b1dc0f8d33faa123bf7cb2da865"/>
+        <VersionInfo resourceName="KV-PostEntryEnv" version="SHA-512:0bc8c642f6aafb004ec817fb29fa6e681b141eb2c6b1aa8747f8bbd12050bb49833380f4de51f45f87c10b695dc27ff25299cee97d48ccb4e0b41f7e680f6436"/>
+        <VersionInfo resourceName="KV-PostEntryOrg" version="SHA-512:64ecb9ecf4352c70fe301085c78fff8aff28caa6fd6045f552cdc14d4e1490bb5254048dceed9a839ef5e921ac3c1d1d6ada6b41f92f4ee2879ee9c1191dab79"/>
+        <VersionInfo resourceName="RF-400" version="SHA-512:0731bf2e4aba3dd7def1471dfdb037305ddadeb4f351bcd1e06aef127c0b187b768a41e8b5940258f0bec4b75ef06f029e7706ffe052255fa00d8f31d7abfc30"/>
+        <VersionInfo resourceName="RF-401" version="SHA-512:d3caed94902b535f71cae6bde48395eab691bafc02a72c7e3402e9fb234c3722566c993798ca60008d2846a76050618009c29685cd75003c56db5b89a701390f"/>
+        <VersionInfo resourceName="RF-403" version="SHA-512:de3baeafcd06cdcde4395d96b397d3e371f07299caeff147f56ec70d49a8046aaa3c5d304538ee1935fb63fd888ffc1ee1eef06f9539c70399eb7773b323a8ae"/>
+        <VersionInfo resourceName="RF-404" version="SHA-512:826cf138dc1c44859e2f3a49884fad077d85a96f4ae3643fa4ee95363f1671873f141082dafe55f5ce6adcb3b311fe3bee06840fa11eaac52ddfb18bdefbe07c"/>
+        <VersionInfo resourceName="RF-404Entry" version="SHA-512:bd7e3a7ba6e3f3bee1c3584f56000217504bbeeda8455488a4b65ea230e60ab3b969d21fc8fa3dd4982f529eeaa8e7dbc76ba1f3105c8c035863815767fb035d"/>
+        <VersionInfo resourceName="RF-500" version="SHA-512:54b987db18763b6d423ea7d1689ac10de7b0317d7039ae4f5327492d9696bda1453671d07873a1eb3b78896001040f5011e7d83badf8e44819afcd51e8f9169f"/>
+        <VersionInfo resourceName="SA-Incoming" version="SHA-512:c8d8dc667665baff4f13afa06a5fdabe8b6608c7187cdf31feecc577551b5e7ab23370c4555e7853f018012e1d432be5b2e52e618b3039295af4bc201e42cdc1"/>
+        <VersionInfo resourceName="kvm" version="SHA-512:045890c27046d4e54e3642c442f3f40fc1ec761aee076c3ac6601ddeba178a42ace4b0f1ce9153253e38da78d7d1cd2bb8774ef83550c73f0ce47c089f91b110"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6406daaa3d1a4a42180d1165c33121bf7fae0dcb981bc1bb731a4bdf5030e13475dd2f3344954a1180e90e2888a41d72f73fd2eff7119bd0cec7bce69b030c81"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JS-IAMPermission.js" version="SHA-512:6c96ea0dc7410048584581be70c7b36e0148c09afdbeee9152238926d7e0772dc909335fabc9a684400988d5921bf34a79841487973a5b2d4649dc37a72357ed"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f1fc0cae513ff183799d971d93a9dd5fae338eb76b48bfccb13eba9d23b8567daa80e64bd7a6ada76ca02a8747e0e73d4768cab72e143ebab0b782505425c5c7"/>
+    </TargetEndpoints>
+</Manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="kvm" mapIdentifier="">
+    <DisplayName>kvm</DisplayName>
+    <Properties/>
+    <Get assignTo="myvar" index="1">
+        <Key>
+            <Parameter ref="myvar"/>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>
