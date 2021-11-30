@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="kvm" mapIdentifier="">
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="kvm">
     <DisplayName>kvm</DisplayName>
     <Properties/>
     <Get assignTo="myvar" index="1">
